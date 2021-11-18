@@ -20,8 +20,6 @@ public class AgentmainAgent {
             System.out.println("This is my agentmain");
             System.out.println("args: " + agentArgs);
             System.out.println("重新定义 -- 开始");
-//            System.out.println("inst.getAllLoadedClasses()中存在类名列表：");
-//            Arrays.stream(inst.getAllLoadedClasses()).forEach(System.out::println);
 
             //获取类名
             File f = new File(agentArgs);
